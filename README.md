@@ -1,2 +1,2 @@
 # Minecraft-mod-FishCraft-
-A Repository for the mod we am making.
+A Repository for the mod we are making.
