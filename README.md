@@ -25,3 +25,11 @@ Change log:
 -	Added Iron Coin
 -	Reworked Gold Coin texture
 -	Fixed Gold Coin name error.
+
+21/01/2019
+Today I followed tutorial 4 and made my first block: “Gold Coin Block”. I found the code straight forward this week and didn’t make any errors and was even writing the odd bit before it came up in the tutorial. My one tip to anyone following this method of mod making is check your .json files carefully especially with bocks as each block requires 3 separate json files, all of which can cause an error if you add one wrong letter. Once again I used Piskel for my sprite and this time I followed the design of a Manyullyn block (from tinkers’ construct) as I have always liked the texture and thought it would complement my coins well.  I used colors from my original gold coin and as I did so I noticed that a couple of pixels were wrong with my gold coin so I fixed those too. The item appeared perfectly it came under the building blocks tab where I put it which was great the only issue was that once again I had forgotten to put it in the lang file and give it a name so I got something along the lines of Tile.Entity… for its name but that was a very quick fix and I knew where I had gone wrong. To help me remember for the future there is now a post-it note on my monitor which reads “remember to add new content to LANG file”
+
+Change log:
+-	Added Gold Coin Block
+-	Updated Gold Coin texture
+-	Updated mother code for easy addition of new items
