@@ -3,3 +3,5 @@ item.coal_coin.name=Coal Coin
 item.iron_coin.name=Iron Coin
 
 tile.gold_coin_block.name=Gold Coin Block
+tile.coal_coin_block.name=Coal Coin Block
+tile.iron_coin_block.name=Iron Coin Block

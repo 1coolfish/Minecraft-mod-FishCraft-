@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "fishcraftmod:blocks/coal_coin_block"
+   }
+}
