@@ -14,7 +14,7 @@ Change log:
 -	Added Gold Coin.
 
 14/01/2019
-First of all a happy new year to everyone reading this, I know there has been a large gap in the blog and it has simply been down to the Christmas period and a busy first week back at college. This week I set out to firstly tidy up my first item (Gold Coin) I found the error which was causeing my coin to read “gold_coin” in game and the simple fix was to go into my LANG file and change the line of 
+First of all a happy new year to everyone reading this, I know there has been a large gap in the blog and it has simply been down to the Christmas period and a busy first week back at college. This week I set out to firstly tidy up my first item (Gold Coin) I found the error which was causing my coin to read “gold_coin” in game and the simple fix was to go into my LANG file and change the line of 
 item.gold_coin.name=gold_coin
 to
 item.gold_coin.name=Gold Coin
@@ -33,3 +33,17 @@ Change log:
 -	Added Gold Coin Block
 -	Updated Gold Coin texture
 -	Updated mother code for easy addition of new items
+
+27/01/2019 + 18/01/2019
+This week I added two more blocks (“Coal Coin Block” and “Iron Coin Block”) I did this to add variants for both of the coins that didn’t have blocks yet. Once again I did this by creating the texture in Piskel using my pre-existing block texture as a blueprint and then just changing the colors on it by sourcing them from my coin textures. I then added these textures to their place in the mod folder and then added them to the LANG file first this time so I don’t forget later. It was then a case of just adding them to my ModBlocks class and then creating six new json files for my items- all of this wasn’t difficult and my code worked without errors which is always nice. My coding didn’t stop here though this week I also wanted to add a bit of individuality to my blocks and move away from stock/basic properties. Using the following websites:
+https://minecraft.gamepedia.com/Explosion
+http://minecraftmodcustomstuff.wikia.com/wiki/Hardness
+http://minecraftmodcustomstuff.wikia.com/wiki/HarvestLevel
+https://minecraft.gamepedia.com/Light
+I created a new class to add custom properties to my blocks such as light and harvest levels. Using inheritance I set this class to extend BlockBase. With this new class originally I set it as GoldCoinBlock but after finishing it I decided that all of my coin blocks were going to have the same properties so I refactored it and changed the name to CoinBlockBase. I didn’t have any real errors or bugs when writing this section on the code I just spent a while working on different properties such as how strong I wanted light to be emitted from my blocks. One thing to note is that whilst the websites listed above are very handy and explain some of the properties I’ve defined in detail they do contain some in-accuracies such as diamond blocks having a resistance level of 30 when in actuality they only have a resistance level of 15 but I would still recommend looking at these websites for anyone following the same steps that I have taken. Once I was happy with my properties I set my blocks to follow the class of CoinBlockBase instead of just block base, tested it was all working smoothly, which it was, and that wrapped up my coding for this week.
+
+Change log:
+-	Added new coin blocks (iron and coal)
+-	Added new Block properties
+-	Updated the properties of “Gold Coin Block”
+
