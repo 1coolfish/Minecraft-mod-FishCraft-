@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "fishcraftmod:iron_coin"
+        }
+    },
+    
+    "result":
+    {
+        "item": "fishcraftmod:iron_coin_block",
+        "count": 1
+    }
+}

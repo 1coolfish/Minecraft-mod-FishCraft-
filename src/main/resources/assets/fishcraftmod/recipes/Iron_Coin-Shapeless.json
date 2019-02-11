@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "fishcraftmod:iron_coin_block"
+    } 
+    ],
+
+    "result": 
+    {
+        "item": "fishcraftmod:iron_coin",
+        "count": 9
+    }
+}
